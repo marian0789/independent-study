@@ -1,0 +1,1 @@
+Curly brackets and semi-colons are not used in SASS
