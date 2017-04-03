@@ -19,7 +19,7 @@ nesting and more which can make writing CSS easier and faster. Files are process
 
 
 Below there is an example of SCSS code:
-```
+```css
 .banner {
   font-family: 'Pacifico', cursive;
   height: 400px;
@@ -50,7 +50,7 @@ background-color: $translucent-white;
 
 ```
 Below there is an example CSS code:
-```
+```css
 .banner {
   font-family: 'Pacifico', cursive;
   height: 400px;
@@ -78,10 +78,10 @@ Below there is an example CSS code:
 ```
 
 ## Take-Aways
- One take away I have taken is that you should, carefully type in your terminal because I had missed one letter when typing in `sass input.scss output.css` which did not make one file. Go back and check for typing errors.
+ * One take away I have taken is that you should, carefully type in your terminal because I had missed one letter when typing in `sass input.scss output.css` which did not make one file. Go back and check for typing errors.
  
- Another take away is, working together is one of the things that helped me install SASS, "Two heads are better than one".
+ * Another take away is, working together is one of the things that helped me install SASS, "Two heads are better than one".
  
- My last take away is, playing around with your code so that you can be more creative with what you want as your final result. 
+ * My last take away is, playing around with your code so that you can be more creative with what you want as your final result. 
 
 
