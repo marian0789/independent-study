@@ -1,16 +1,16 @@
 SASS
 
 
-> SASS stands for Syntactically Awesome StyleSheets
-> SASS is like CSS but it is shorter way to code than CSS
-> Neat 
+SASS stands for Syntactically Awesome StyleSheets
+SASS is like CSS but it is shorter way to code than CSS
+Neat 
 
-> SASS also has 3 concepts
+SASS also has 3 concepts
 Variables
 Mixins
 Nests
 
-> SASS uses $ to define and reference a variable
+SASS uses $ to define and reference a variable
 
 
 
@@ -30,12 +30,12 @@ This code snippet lets us first compile SASS to CSS. The snippet takes two argum
 ****To define & reference variables you have to use  $ ******   (this connects to global variables!)
 
 
-> Sass has two other data types: 
+Sass has two other data types: 
   - lists 
   - maps
 
 Maps means that each object is a key-value pair. the value of a key can be a list/another map.
-> Nesting and variables are two ways that keeps Sass stylesheets clean. 
+Nesting and variables are two ways that keeps Sass stylesheets clean. 
 
 Example of Map key code
 
