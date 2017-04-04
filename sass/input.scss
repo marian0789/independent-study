@@ -1,9 +1,17 @@
-  h1 {
-  font-family: Roboto, sans-serif;
-  text-align:Center;
-  color: black;
-    text-align: center;
-  
-  
+$font: verdana;
+$color:  #ff1aff;
+$font-size: 160%; 
+
+h1 {
+  font: 100% $font;
+  color: $color;
+  font-size: $font-size;
 }
 
+h3 { 
+
+  font: 100% $font;
+  color: $color;
+  font-size: $font-size;
+  
+}
