@@ -1,6 +1,6 @@
 # Entry 3
 ## Trying out Variables
-On Monday, I decided that I wanted to focus more on Variables. I googled "SASS Variables" and I clicked on a link. 
+Throughout this week, I decided that I wanted to focus more on Variables. I googled "SASS Variables" and I clicked on a link. 
 I learned that variables are a way to store information where I can reuse throughout my SCSS file.
 
 Below is an example of SCSS Syntax: 
