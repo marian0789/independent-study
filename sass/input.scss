@@ -7,6 +7,8 @@ $bgc: white;
 
 body {
   background-color: $bgc;
+  padding: 50;
+  margin: 50; 
 
 
 }
@@ -40,6 +42,11 @@ h3 {
   }
 
 
+@mixin hover-color($color) {
+   &:hover{
+       color: $color;
+   }
+}
 
 
 
@@ -77,4 +84,36 @@ h3 {
   @include transform (rotatey(-180deg)); 
  
 }
+}
+
+$breakpoints: (
+  'seed': (min-width: 800px),
+  'sprout': (min-width: 1000px),
+  'plant': (min-width: 1200px),
+);
+ .word {
+      @include hover-color(red);
+      display: block;
+      text-align: center;
+      position: relative;
+      top: 40%;
+    }    
+    
+    
+   
+   
+    
+    
+$width: 250px;
+$lagoon-blue: fade-in(black, 0.5);
+
+.toptitle {
+
+  width: $width/2;
+  text-align: center;
+  background-color: $lagoon-blue;
+  color: white;
+height: $width/6;
+line-height: $width/6;
+ border-radius: $width/30 ;
 }

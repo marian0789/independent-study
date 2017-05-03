@@ -1,5 +1,7 @@
 body {
-  background-color: white; }
+  background-color: white;
+  padding: 50;
+  margin: 50; }
 
 h1 {
   font: 100% Times New Roman;
@@ -33,5 +35,22 @@ li {
     -moz-transform: rotatey(-180deg);
     -ms-transform: rotatey(-180deg);
     -o-transform: rotatey(-180deg); }
+
+.word {
+  display: block;
+  text-align: center;
+  position: relative;
+  top: 40%; }
+  .word:hover {
+    color: red; }
+
+.toptitle {
+  width: 125px;
+  text-align: center;
+  background-color: black;
+  color: white;
+  height: 41.66667px;
+  line-height: 41.66667px;
+  border-radius: 8.33333px; }
 
 /*# sourceMappingURL=output.css.map */
