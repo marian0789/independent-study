@@ -1,3 +1,12 @@
+$total: 10; //Number of .ray divs in our html
+$step: 360deg / $total; //Used to compute the hue based on color-wheel
+
+
+
+
+
+
+
 $font: Times New Roman;
 $color: #800000;
 $font-size: 160%; 
@@ -116,4 +125,15 @@ $lagoon-blue: fade-in(black, 0.5);
 height: $width/6;
 line-height: $width/6;
  border-radius: $width/30 ;
+}
+
+.headerBar {
+    width: 100%;
+    height: 60px;
+    height: 63px;
+    background-color: #383838;
+    index: 2;
+    z-index: 10;
+    position: fixed;
+    top: 0px;
 }
