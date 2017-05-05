@@ -7,5 +7,5 @@
 
 
 
-<img src="../dance.png"/>
+<img src="../face.png"/>
  
