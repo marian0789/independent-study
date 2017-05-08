@@ -32,7 +32,7 @@ Therefore, using ``` @extend``` can save you time, and a neater way to code.
 
 
 ### The Symbol.
-<br>
+
 Sass allows a special type of selector called a placeholder, which behaves just like a class or id selector. Instead of # or . , Sass uses the % sign.
 Below there is an example:
 
