@@ -1,6 +1,6 @@
 # Entry 6
 ### Extend.
-Well, as I have been learning Sass in Code Academy I've came across to ```css @Extend```. 
+Well, as I have been learning Sass in Code Academy I've came across to ```  @extend ```. 
 
 Look below for an example:
 
@@ -16,42 +16,22 @@ Look below for an example:
 
 ```
 
-Extend is basically having all the code in a memory card that you have in ```css.lemonade```. By typing ```css @extend .lemonade``` 
+Extend is basically having all the code in a memory card that you have in ```.lemonade```. By typing ```@extend .lemonade``` 
 
-in a different section of your entire code, will have the same code from```css .lemonade```.
+in a different section of your entire code, will have the same code from```.lemonade```.
 
 
-I think using ```csss @extend     ``` is an easy way to save time while coding because let's say you have a bunch 
+I think using ``` @extend ``` is an easy way to save time while coding because let's say you have a bunch 
 of code that you want to reuse in a different section, 
 Yes, you are probably thinking just copy and paste, right? Copy and pasting is a good idea but, 
 having too much code, makes it harder to solve or find errors and/or bugs. We dont want that.
-Therefore, using ```css @extend``` can save you time, and a neater way to code.
+Therefore, using ``` @extend``` can save you time, and a neater way to code.
 
 <br>
 ### The Symbol.
 <br>
 Sass allows a special type of selector called a placeholder, which behaves just like a class or id selector. Instead of # or . , Sass uses the % sign.
 Below there is an example:
-```css
-a%drink {
-    font-size: 2em;
-    background-color: $lemon-yellow;
- }
- .lemonade {
-  @extend %drink;
-  //more rules
- }
-would translate to 
- a.lemonade {
-    font-size: 2em;
-    background-color: $lemon-yellow;
- }
-
-.lemonade {
-  //more rules
-}
-Below there is an example:
-```
 
 ```css
 a%drink {
