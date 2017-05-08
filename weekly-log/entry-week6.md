@@ -28,6 +28,9 @@ having too much code, makes it harder to solve or find errors and/or bugs. We do
 Therefore, using ``` @extend``` can save you time, and a neater way to code.
 
 <br>
+
+
+
 ### The Symbol.
 <br>
 Sass allows a special type of selector called a placeholder, which behaves just like a class or id selector. Instead of # or . , Sass uses the % sign.
