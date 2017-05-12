@@ -4,9 +4,6 @@ $step: 360deg / $total; //Used to compute the hue based on color-wheel
 
 
 
-
-
-
 $font: Times New Roman;
 $color: #800000;
 $font-size: 160%; 
@@ -107,17 +104,12 @@ $breakpoints: (
       position: relative;
       top: 40%;
     }    
-    
-    
-   
-   
-    
+
     
 $width: 250px;
 $lagoon-blue: fade-in(black, 0.5);
 
 .toptitle {
-
   width: $width/2;
   text-align: center;
   background-color: $lagoon-blue;
@@ -127,13 +119,59 @@ line-height: $width/6;
  border-radius: $width/30 ;
 }
 
-.headerBar {
+
+ 
+ .headerBar {
     width: 100%;
     height: 60px;
     height: 63px;
     background-color: #383838;
-    index: 2;
+    index: 6;
     z-index: 10;
     position: fixed;
     top: 0px;
+}
+
+
+/* Style the tab */
+div.tab {
+    float: left;
+    border: 12px solid #ccc;
+    background-color: white;
+    width: 100%;
+    height: 200px;
+}
+
+/* Style the buttons inside the tab */
+div.tab button {
+    display: block;
+    background-color: inherit;
+    color: black;
+    padding: 22px 16px;
+    width: 100%;
+    border: none;
+    outline: none;
+    text-align: left;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+/* Change background color of buttons on hover */
+div.tab button:hover {
+    background-color: #ddd;
+}
+
+/* Create an active/current "tab button" class */
+div.tab button.active {
+    background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+    float: left;
+    padding: 0px 12px;
+    border: 1px solid #ccc;
+    width: 70%;
+    border-left: none;
+    height: 300px;
 }

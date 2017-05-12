@@ -13,64 +13,66 @@
          }
   </style>
   
-  <div class="headerBar"></div>
+   
+<div class="tab">
+  <button class="tablinks" onclick="openCity(event, 'Ballet')">Ballet</button>
+  <button class="tablinks" onclick="openCity(event, 'Hiphop')">Hiphop</button>
+  <button class="tablinks" onclick="openCity(event, 'African Dance')">African Dance</button>
+</div>
+<br>
+<br>
+
+<br> 
+<br>
+
+
+<div id="Ballet" class="tabcontent">
+  <h3>Ballet</h3>
+  <p></p>
+</div>
+
+<div id="Hiphop" class="tabcontent">
+  <h3>Hiphop</h3>
+  <p>.</p> 
+</div>
+
+<div id="African Dance" class="tabcontent">
+  <h3>African Dance</h3>
+  <p>.</p>
+</div>
+<br>
+
+
+
+
+
+<script>
+function openCity(evt, cityName) {
+    var i, tabcontent, tablinks;
+    tabcontent = document.getElementsByClassName("tabcontent");
+    for (i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].style.display = "none";
+    }
+    tablinks = document.getElementsByClassName("tablinks");
+    for (i = 0; i < tablinks.length; i++) {
+        tablinks[i].className = tablinks[i].className.replace(" active", "");
+    }
+    document.getElementById(cityName).style.display = "block";
+    evt.currentTarget.className += " active";
+}
+
+// Get the element with id="defaultOpen" and click on it
+document.getElementById("defaultOpen").click();
+</script>
+
+
+
+
+
+
+
+
+
+
 
   </head>
-  <body>
-    
-    
-    <link rel="stylesheet" type="text/css" href="main.css">
-
-
-
-    <br>
-  <center> <link rel="stylesheet" type="text/css" href="main.css"></center>
-<br>
-<br>
-<br>
-<center><div class="toptitle">Maria Nieves</div></center>
-<br>
-<br>
-
-    <script src="index.js"></script>
-  <center>  <img src="https://static1.squarespace.com/static/54e49ed0e4b0408d9cff2426/t/54e9af28e4b07c3f655ecfda/1424600873862/"  height="10%" width="10%" type="center"></center>
-  
-    
-    <link rel="stylesheet" type="text/css" href="main.css">
-   
-
-
-   <center> <h1>Dance </h1></center>
-    
-  <center><h1>Different type of dances</h1></center>  
-    
-<center>
-
-  <li>Ballet</li>
-  <li>Hip-Hop</li>
-  <li>African Dance</li>
-
-
-</center>
-<center>
-<link rel="stylesheet" type="text/css" href="main.css">
-
-<div id="notecards">
-  <div class="notecard">
-    <div class="front">
-      <span class="word">Age</span>
-    </div>
-    <div class="back">
-      <div class="definition">
-      Some  dancers start at the age of 5
-        <div class="photo"></div>
-      </div>
-    </div>
-  </div>
- 
-</div>
-</center>
-
-  </body>
-  
-</html>
