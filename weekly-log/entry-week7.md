@@ -14,7 +14,7 @@ Misty Copeland A ballerina
 
 
 # Take-Aways
-1. It is never to late to learn about something new, 
+1. It is never to late to learn about something new everyday! 
 2. Drink a nice drink, while researching
 3. Be Creative, Think Outside The Box 
 
