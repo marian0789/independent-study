@@ -7,72 +7,27 @@
     <link href="index.css" rel="stylesheet" type="text/css" />
     
     <link rel= "stylesheet" href= "output.css"  type="text/css" />
-    <style>
-       ul{
-          list-style: square;
-         }
-  </style>
-  
-   
-<div class="tab">
-  <button class="tablinks" onclick="openCity(event, 'Ballet')">Ballet</button>
-  <button class="tablinks" onclick="openCity(event, 'Hiphop')">Hiphop</button>
-  <button class="tablinks" onclick="openCity(event, 'African Dance')">African Dance</button>
-</div>
-<br>
-<br>
+  <br>
 
-<br> 
-<br>
-
-
-<div id="Ballet" class="tabcontent">
-  <h3>Ballet</h3>
-  <p></p>
+<div id="wrapperHeader">
+    <div id="header">
+       
+    <img src="../download.jpg" width="100%"   >
+   <center><h1> D A N C E </h1></center>
+      
+    </div> 
+    
 </div>
 
-<div id="Hiphop" class="tabcontent">
-  <h3>Hiphop</h3>
-  <p>.</p> 
-</div>
+</head>
 
-<div id="African Dance" class="tabcontent">
-  <h3>African Dance</h3>
-  <p>.</p>
-</div>
-<br>
+
+<body>
+<p>Uhmmm</p>
+</body>
 
 
 
+</html>
 
 
-<script>
-function openCity(evt, cityName) {
-    var i, tabcontent, tablinks;
-    tabcontent = document.getElementsByClassName("tabcontent");
-    for (i = 0; i < tabcontent.length; i++) {
-        tabcontent[i].style.display = "none";
-    }
-    tablinks = document.getElementsByClassName("tablinks");
-    for (i = 0; i < tablinks.length; i++) {
-        tablinks[i].className = tablinks[i].className.replace(" active", "");
-    }
-    document.getElementById(cityName).style.display = "block";
-    evt.currentTarget.className += " active";
-}
-
-// Get the element with id="defaultOpen" and click on it
-document.getElementById("defaultOpen").click();
-</script>
-
-
-
-
-
-
-
-
-
-
-
-  </head>
