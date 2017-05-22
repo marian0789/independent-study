@@ -1,16 +1,8 @@
-body {
+div {
+  background-color: pink; }
+
+.navbar-inverse {
   background-color: pink;
-  padding: 50;
-  margin: 50; }
-
-h1 {
-  font: 100% Lucida Console;
-  color: #800000;
-  font-size: 100px; }
-
-h3 {
-  font: 100% Lucida Console;
-  color: #800000;
-  font-size: 100px; }
+  border-color: #249cb6; }
 
 /*# sourceMappingURL=output.css.map */

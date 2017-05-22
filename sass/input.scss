@@ -1,42 +1,7 @@
-$total: 10; //Number of .ray divs in our html
-$step: 360deg / $total; //Used to compute the hue based on color-wheel
-
-
-$font: Lucida Console;
-$color: #800000;
-$font-size: 50px; 
-$bgc: pink;
-
-
-
-
-body {
-  background-color: $bgc;
-  padding: 50;
-  margin: 50; 
-
-
+div {
+  background-color: pink;
 }
-
-
-h1 {
-  font: 100% $font;
-  color: $color;
-  font-size: $font-size;
-  
+.navbar-inverse {
+    background-color: pink;
+    border-color: #249cb6;
 }
-
-
-h3 { 
-
-  font: 100% $font;
-  color: $color;
-  font-size: $font-size;
-}
-
-
-
-
-
-
-
