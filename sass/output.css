@@ -5,4 +5,12 @@ div {
   background-color: pink;
   border-color: #249cb6; }
 
+h1 {
+  color: green; }
+
+body {
+  font-size: 20px;
+  font-family: 'Paprika', cursive;
+  color: purple; }
+
 /*# sourceMappingURL=output.css.map */
