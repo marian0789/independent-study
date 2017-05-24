@@ -11,6 +11,10 @@ h1 {
 body {
   font-size: 20px;
   font-family: 'Paprika', cursive;
-  color: purple; }
+  color: white; }
+
+h2 {
+  color: #990703;
+  font-family: cursive; }
 
 /*# sourceMappingURL=output.css.map */

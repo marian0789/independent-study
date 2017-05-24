@@ -1,5 +1,8 @@
+$bgc: #990703; 
+$ff: cursive;
+
 div {
-  background-color: pink;
+  background-color: bgc;
 }
 .navbar-inverse {
     background-color: pink;
@@ -10,8 +13,14 @@ h1 {
 }
 
 body {
-        font-size: 20px;
-        font-family: 'Paprika', cursive;
-        color: purple;
+   font-size: 20px;
+   font-family: 'Paprika', $ff;
+   color: white;
    
     }
+    
+h2 { 
+color: $bgc;
+font-family: $ff;
+
+}
