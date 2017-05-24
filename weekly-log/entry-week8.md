@@ -19,10 +19,10 @@ are not cooporating with jQuery. I've changed some code in jQuery. It started to
 <img src="../Dancewebpage.png" />
 
 
-Take-Aways
-1.) Do not procastinate!!!!
-2.) Take breaks in between your coding time before you start getting frustrated with yourself
-3.) Think about the final product! This makes me keep going
+#Take-Aways
+### 1.) Do not procastinate!!!!
+### 2.) Take breaks in between your coding time before you start getting frustrated with yourself
+###3.) Think about the final product! This makes me keep going
 
 
 
