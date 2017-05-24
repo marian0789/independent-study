@@ -3,6 +3,7 @@ $ff: cursive;
 
 div {
   background-color: bgc;
+ 
 }
 .navbar-inverse {
     background-color: pink;
@@ -15,12 +16,18 @@ h1 {
 body {
    font-size: 20px;
    font-family: 'Paprika', $ff;
-   color: white;
-   
+   color: purple;
+
+  
     }
     
 h2 { 
 color: $bgc;
 font-family: $ff;
 
+}
+
+
+p{
+    color: black;
 }
