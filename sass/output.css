@@ -16,6 +16,13 @@ h1 {
   font-family: Times New Roman;
   color: #828eef;
   text-decoration: underline; }
+  p{ 
+ 
+   font-family:$ff;
+   color: blue;
+
+  
+}
 
 .notecard {
   width: 160px;
