@@ -1,77 +1,79 @@
 $ff: Times New Roman;
-$bgc: #990703; 
-$h1: rgb(130, 142, 239); 
+$bgc: #990703;
+$h1: rgb(130, 142, 239);
 
 
 
 
 
-h2 { 
-color: $bgc;
-font-family: $ff;
+h2 {
+  color: $bgc;
+  font-family: $ff;
 }
 
-h3{
-  color: purple;
+h3 {
+  color: red;
 }
 
 
 
 .navbar-inverse {
-    background-color: pink;
-   
+  background-color: pink;
+
 }
 
-body{ 
-    background-color: rgb(255, 206, 173);
-   
+body {
+  background-color: rgb(255, 206, 173);
+
 }
 
-h1{ 
+h1 {
   font-size: 50px;
-   font-family:$ff;
-   color: $h1;
+  font-family: $ff;
+  color: $h1;
   text-decoration: underline;
-  
+
 }
 
-p{ 
- 
-   font-family:$ff;
-   color: blue;
+p {
 
-  
+  font-family: $ff;
+  color: blue;
+
+
 }
 
 
 
 
 @mixin stripes($direction, $width-percent, $stripe-color, $stripe-background: #FFF) {
-  background: repeating-linear-gradient(
-    $direction,
-    $stripe-background,
-    $stripe-background ($width-percent - 1),
-    $stripe-color 1%,
-    $stripe-background $width-percent
-  );
+  background: repeating-linear-gradient( $direction,
+  $stripe-background,
+  $stripe-background ($width-percent - 1),
+  $stripe-color 1%,
+  $stripe-background $width-percent);
 }
 
-$stripe-properties: to bottom, 10%, clear, clear;
+$stripe-properties: to bottom,
+10%,
+clear,
+clear;
 @mixin hover-color($color) {
-   &:hover{
-       color: $color;
-   }
+  &:hover {
+    color: $color;
+  }
 }
+
 @mixin transform($transformation) {
   transform: $transformation;
   -webkit-transform: $transformation;
   -moz-transform: $transformation;
   -ms-transform: $transformation;
-  -o-transform: $transformation;  
+  -o-transform: $transformation;
 }
 
 @mixin photo-content($file) {
-   content: url(#{$file}.jpg);
+  content: url(#{$file}.jpg);
   object-fit: cover;
 }
 
@@ -86,29 +88,30 @@ $stripe-properties: to bottom, 10%, clear, clear;
 
 .notecard {
 
-  width:  60px;
+  width: 60px;
   height: 60px;
   border: 1px solid black;
   display: inline-block;
   margin: 60px;
   font-family: Roboto, sans-serif;
-  box-shadow: 1px 1px 2px 2px rgba(0,0,0,.2);
-  
-  &:hover{
-  	@include transform (rotatey(180deg));  
-	}	
-  
-  .front,  .back{
+  box-shadow: 1px 1px 2px 2px rgba(0, 0, 0, .2);
+
+  &:hover {
+    @include transform (rotatey(180deg));
+  }
+
+  .front,
+  .back {
     width: 60%;
     height: 60%;
     position: absolute;
     @include backface-visibility;
-      text-align: center;
+    text-align: center;
   }
- 
+
   .front {
-  z-index: 5;
-  font-size: 5px;
+    z-index: 5;
+    font-size: 5px;
 
     .word {
       @include hover-color(red);
@@ -116,24 +119,24 @@ $stripe-properties: to bottom, 10%, clear, clear;
       text-align: center;
       position: relative;
       top: 60%;
-    }    
+    }
   }
-  
-  
+
+
   .back {
-  z-index: 1;
-  word-wrap: break-word;
-  line-height: 2;
-    
+    z-index: 1;
+    word-wrap: break-word;
+    line-height: 2;
+
     .definition {
-      @include stripes($stripe-properties...);      
+      @include stripes($stripe-properties...);
       width: 100%;
       height: 100%;
       .photo {
-         @include photo-content("face.png");
+        @include photo-content("face.png");
         width: 60%;
         margin: 0px auto;
-          
+
       }
     }
   }
